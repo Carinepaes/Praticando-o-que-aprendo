@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página profissional da nossa empresa com informações sobre nossos serviços e formas de contato."
+    />
+    <title>Restaurante Caso SÉrio - Home</title>
+    <!-- Aqui você pode incluir o link para o arquivo CSS no futuro -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo-com-imagem">
+      <h1>Caso SÉrio</h1>
+    </div>
+    <header>
+      <div class="navbar">
+        <!-- Menu de navegação -->
+        <nav>
+          <ul class="menu">
+            <li><a href="paginaprincipal.html">Início</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="contato.html">Contate-nos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="galeria">
+      <h2 class="titulo">Galeria de Fotos</h2>
+      <div class="galeria-container">
+        <!-- Galeria de Imagens -->
+        <img
+          src="imagens/pratoscasoserio1.webp"
+          alt="porção batatas, azeitonas e tábua de queijos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(0)"
+        />
+        <img
+          src="imagens/pratoscasoserio2.webp"
+          alt="tábua de queijos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(1)"
+        />
+        <img
+          src="imagens/pratoscasoserio3.webp"
+          alt="tibórnas de sardinhas"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(2)"
+        />
+        <img
+          src="imagens/pratoscasoserio4.webp"
+          alt="porção batatas"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(3)"
+        />
+        <img
+          src="imagens/pratoscasoserio5.webp"
+          alt="queijo cabra"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(4)"
+        />
+        <img
+          src="imagens/pratoscasoserio6.webp"
+          alt="queijo cammambat"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(5)"
+        />
+        <img
+          src="imagens/pratoscasoserio7.webp"
+          alt="ovos rotos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(6)"
+        />
+        <img
+          src="imagens/pratoscasoserio8.webp"
+          alt="queijo ilha com figos e mel"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(7)"
+        />
+        <img
+          src="imagens/pratoscasoserio9.webp"
+          alt="ovos rotos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(8)"
+        />
+        <img
+          src="imagens/pratoscasoserio10.webp"
+          alt="rolos courget"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(9)"
+        />
+        <img
+          src="imagens/pratoscasoserio11.webp"
+          alt="tiborna de bacalhau"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(10)"
+        />
+        <img
+          src="imagens/pratoscasoserio12.webp"
+          alt="farinheira com laranja, mel e canela"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(11)"
+        />
+        <img
+          src="imagens/pratoscasoserio13.webp"
+          alt="alheira com grelos,batatas e ovos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(12)"
+        />
+        <img
+          src="imagens/pratoscasoserio14.webp"
+          alt="tábua mista"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(13)"
+        />
+        <img
+          src="imagens/pratoscasoserio15.webp"
+          alt="bolo de chocolate com gelado"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(14)"
+        />
+        <img
+          src="imagens/pratoscasoserio16.webp"
+          alt="bolo de chocolate"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(15)"
+        />
+        <img
+          src="imagens/pratoscasoserio17.webp"
+          alt="sobremesa caso sério"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(16)"
+        />
+        <img
+          src="imagens/pratoscasoserio18.webp"
+          alt="bolo de chocolate com gelado"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(17)"
+        />
+        <img
+          src="imagens/pratoscasoserio19.webp"
+          alt="tábua de enchidos"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(18)"
+        />
+        <img
+          src="imagens/pratoscasoserio20.webp"
+          alt="queijinho com doce abóbora"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(19)"
+        />
+        <img
+          src="imagens/pratoscasoserio21.webp"
+          alt="chouriço"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(20)"
+        />
+        <img
+          src="imagens/pratoscasoserio22.webp"
+          alt="tiborna bacalhau com batatas"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(21)"
+        />
+        <img
+          src="imagens/pratoscasoserio23.webp"
+          alt="tábua caso sério"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(22)"
+        />
+        <img
+          src="imagens/pratoscasoserio24.webp"
+          alt="burrata com presunto, rúcula e tomate charry"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(23)"
+        />
+        <img
+          src="imagens/pratoscasoserio25.webp"
+          alt="tábua de camarão"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(24)"
+        />
+        <img
+          src="imagens/pratoscasoserio26.webp"
+          alt="burrata com presunto, rúcula e tomate charry"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(25)"
+        />
+        <img
+          src="imagens/casoserio_img1.jpg"
+          alt="Sala Principal caso sério 1"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(26)"
+        />
+        <img
+          src="imagens/casoserio_img2.jpg"
+          alt="Decoração de carro antigo caso sério 2"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(27)"
+        />
+        <img
+          src="imagens/casoserio_img3.jpg"
+          alt="Equipa caso sério 2020 3"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(28)"
+        />
+        <img
+          src="imagens/casoserio_img4.jpg"
+          alt="Área dos sofá caso sério 4"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(29)"
+        />
+        <img
+          src="imagens/casoserio_img5.jpg"
+          alt="Salão de mesas caso sério 5"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(30)"
+        />
+        <img
+          src="imagens/casoserio_img6.jpg"
+          alt="Tábua caso sério 6"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(31)"
+        />
+        <img
+          src="imagens/casoserio_img7.jpg"
+          alt="Caravela antiga amarela 7"
+          class="galeria-imagem zoom-imagem"
+          onclick="abrirModal(32)"
+        />
+      </div>
+      <!-- Estrutura do Modal -->
+      <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <span class="seta esquerda" onclick="navegarImagem(-1)">&#10094;</span>
+        <img class="modal-conteudo" id="imagemModal" />
+        <span class="seta direita" onclick="navegarImagem(1)">&#10095;</span>
+      </div>
+    </section>
+
+    <h4 class="categoria">Restaurante - Português - Romântico</h4>
+
+    <main>
+      <h2 class="sobre">Sobre Nós</h2>
+      <p>
+        O restaurante Caso SÉrio , situado no coração de Alfama, perto da Sé, é
+        um verdadeiro tesouro para os amantes dos sabores tradicionais
+        portugueses.
+      </p>
+      <br />
+      <p>
+        Com esplanada, um ambiente informal e acolhedor, sua decoração encanta
+        ao combinar o estilo retrô com elementos tradicionais, destacando-se
+        como um espaço autêntico e cheio de personalidade.
+      </p>
+      <br />
+      <p>
+        Caso SÉrio dedica-se a servir o melhor da gastronomia portuguesa,
+        oferecendo uma variedade de petiscos que encantam os paladares mais
+        exigentes.
+      </p>
+      <br />
+      <p>
+        É possível desfrutar de um bom vinho a copo e de petiscos preparados com
+        ingredientes frescos e cuidadosamente selecionados.
+      </p>
+      <br />
+      <p>
+        No Caso SÉrio , o foco vai além da culinária: o restaurante é também um
+        convite para momentos de convívio e reuniões ao redor da mesa, onde
+        amigos e familiares se reúnem para compartilhar histórias e boas
+        risadas.
+      </p>
+      <br />
+      <p>
+        A empresa, que pretende completar 14 anos, orgulha-se de sua trajetória
+        e de ser um negócio familiar que valoriza a tradição e a cultura
+        portuguesa. Com quase uma década e meia de história, o Caso SÉrio
+        conquistou seu espaço, tanto entre os moradores de Lisboa quanto entre
+        turistas que buscam uma experiência gastronômica autêntica.
+      </p>
+    </main>
+
+    <!-- Seção "Início" -->
+    <section id="estrutura base.html"></section>
+
+    <!-- Rodapé com informações adicionais -->
+    <footer>
+      <p>&copy; 2024 Caso SÉrio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
